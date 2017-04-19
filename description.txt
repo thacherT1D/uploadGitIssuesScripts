@@ -1,0 +1,9 @@
+Once all of your students have forked the galvanize-eats repo, they will need to go to settings for their
+fork (ie: https://github.com/ctide/galvanize-eats/settings) and check the box in front of issues to enable those.
+
+You'll need to modify the script to include your own personal token, and to include the github usernames of all of your students
+as well.
+
+$ brew install ruby
+$ gem install httparty -v 0.13.7
+$ Ruby create_galvanize_eats_issues.rb
